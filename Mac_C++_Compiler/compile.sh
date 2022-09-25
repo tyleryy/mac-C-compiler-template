@@ -1,5 +1,6 @@
-printf "Compiling\n.\n.\n.\n.\n.\n.\n.\n"
+# Compiling and Linking
 g++-12 app/main.cpp core/*.cpp
 
-printf "\nRunning executable\n.\n.\n.\n.\n.\n.\n\n\n"
+# Executing compiled code
+printf "\nRunning executable\n-------------------------------------------------\n"
 ./a.out
